@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: hrm-ecology
+Version: 0.1.0
+Summary: HRM Ecology: A Resilient World-Model Runtime
+License: MIT
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.26
+Requires-Dist: scipy>=1.12
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-cov>=5.0; extra == "dev"
+
+# world-forge-shining-metallic
+A resilient world-model that runs on a substrate for machines that must live inside a changing world rather than merely process static data about it.
